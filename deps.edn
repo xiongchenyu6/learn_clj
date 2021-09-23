@@ -3,7 +3,9 @@
 
  :aliases {:depstar
            {:extra-deps
-            {seancorfield/depstar {:mvn/version "LATEST"}}}
+            {seancorfield/depstar {:mvn/version "LATEST"}}
+            :main-opts ["-m" "learn_clj.core"]
+            }
            :test
            {:extra-paths ["test"]
             :extra-deps {com.cognitect/test-runner {:git/url "https://github.com/cognitect-labs/test-runner.git"

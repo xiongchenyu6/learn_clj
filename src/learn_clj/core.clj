@@ -2,9 +2,9 @@
 
 (defn -main [] (println "Hello, World!") 2)
 
-(defn plus [x] x + 1)
+;(defn plus [x] x + 1)
 
-(defn min [x] x - 1)
+;(defn min [x] x - 1)
 
 (def Y (fn [f]
          ((fn [x]
@@ -33,6 +33,6 @@
                    1 1
                    (+ (func (dec n)) (func (dec (dec n))))))))
 
-((Y factorial-gen) 19)
+;((Y factorial-gen) 19)
 
-((Y fib-gen) 100)
+;((Y fib-gen) 100)
